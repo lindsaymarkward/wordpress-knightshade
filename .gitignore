@@ -2,4 +2,6 @@
 .env.local
 */.DS_Store
 wp_content/*
+!wp_content/themes/
+wp_content/themes/*
 !wp_content/themes/knightshade/
