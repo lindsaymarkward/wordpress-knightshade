@@ -1,4 +1,8 @@
 .env.prod
 .env.local
-**/.DS_Store
-wp_content/*
+**/.DS-Store
+wp-content/*
+wp-content/*/*
+!wp-content/themes/
+wp-content/themes/*
+!wp-content/themes/knightshade/
