@@ -16,6 +16,6 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SSH_KEY }}
           script: |
-            cd YOUR_REPO
+            cd wordpress-knightshade
             git pull origin main
             docker compose --env-file .env.prod -f docker-compose.prod.yml up -d
