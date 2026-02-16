@@ -1,5 +1,6 @@
 .env.prod
 .env.local
+secrets.txt
 **/.DS-Store
 wp-content/*
 wp-content/*/*
