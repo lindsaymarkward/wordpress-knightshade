@@ -970,5 +970,6 @@ textarea {
 }
 
 .site {
-	margin: 2em;
+	margin: 5em;
+	background-color: #800080;
 }
